@@ -1,0 +1,45 @@
+﻿<Window x:Class="RelojLogico.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RelojLogico"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="573" Width="1039" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Margin="0,0,-15,0">
+        <Button Content="Enviar" HorizontalAlignment="Left" Margin="481,192,0,0" VerticalAlignment="Top" Width="80" Height="31" Click="Button_Click"/>
+        <TextBox x:Name="TBEmisor" HorizontalAlignment="Left" Height="23" Margin="425,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="TBReceptor" HorizontalAlignment="Left" Height="23" Margin="555,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <Label Content="Proceso emisor" HorizontalAlignment="Left" Margin="411,114,0,0" VerticalAlignment="Top"/>
+        <Label Content="Proceso receptor" HorizontalAlignment="Left" Margin="538,114,0,0" VerticalAlignment="Top"/>
+        <DataGrid Name="DG1" AutoGenerateColumns="False" Width="200" Height="179" Margin="47,324,784,0" VerticalAlignment="Top">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mensaje" Binding="{Binding Mensaje}" Width="100"/>
+                <DataGridTextColumn Header="Contador" Binding="{Binding Contador}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="DG2" AutoGenerateColumns="False" Width="200" Height="179" Margin="299,324,532,0" VerticalAlignment="Top">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mensaje" Binding="{Binding Mensaje}" Width="100"/>
+                <DataGridTextColumn Header="Contador" Binding="{Binding Contador}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="DG3" AutoGenerateColumns="False" Width="200" Height="179" Margin="539,324,292,0" VerticalAlignment="Top">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mensaje" Binding="{Binding Mensaje}" Width="100"/>
+                <DataGridTextColumn Header="Contador" Binding="{Binding Contador}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="DG4" AutoGenerateColumns="False" Width="200" Height="179" Margin="786,324,45,0" VerticalAlignment="Top">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mensaje" Binding="{Binding Mensaje}" Width="100"/>
+                <DataGridTextColumn Header="Contador" Binding="{Binding Contador}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Ingrese el número de proceso del cual quiere enviar y recibir un mensaje" HorizontalAlignment="Left" Margin="321,53,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Historial proceso 1" HorizontalAlignment="Left" Margin="93,281,0,0" VerticalAlignment="Top"/>
+        <Label Content="Historial proceso 2" HorizontalAlignment="Left" Margin="345,281,0,0" VerticalAlignment="Top"/>
+        <Label Content="Historial proceso 3" HorizontalAlignment="Left" Margin="590,281,0,0" VerticalAlignment="Top"/>
+        <Label Content="Historial proceso 4" HorizontalAlignment="Left" Margin="839,281,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

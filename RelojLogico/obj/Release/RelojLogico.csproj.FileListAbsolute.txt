@@ -1,0 +1,14 @@
+E:\RelojLogico\bin\Release\RelojLogico.exe.config
+E:\RelojLogico\bin\Release\RelojLogico.exe
+E:\RelojLogico\bin\Release\RelojLogico.pdb
+E:\RelojLogico\obj\Release\MainWindow.g.cs
+E:\RelojLogico\obj\Release\App.g.cs
+E:\RelojLogico\obj\Release\RelojLogico_MarkupCompile.cache
+E:\RelojLogico\obj\Release\RelojLogico_MarkupCompile.lref
+E:\RelojLogico\obj\Release\MainWindow.baml
+E:\RelojLogico\obj\Release\RelojLogico.g.resources
+E:\RelojLogico\obj\Release\RelojLogico.Properties.Resources.resources
+E:\RelojLogico\obj\Release\RelojLogico.csproj.GenerateResource.cache
+E:\RelojLogico\obj\Release\RelojLogico.csproj.CoreCompileInputs.cache
+E:\RelojLogico\obj\Release\RelojLogico.exe
+E:\RelojLogico\obj\Release\RelojLogico.pdb
